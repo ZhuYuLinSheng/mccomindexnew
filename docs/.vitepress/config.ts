@@ -23,7 +23,7 @@ export default defineConfig({
       lang: 'zh-Hans',
       ...zh_CN
     },
-    /*en: {
+    en: {
       label: 'English',
       lang: 'en_US',
       ...en_US
@@ -32,7 +32,7 @@ export default defineConfig({
       label: '文言',
       lang: 'zh-classical',
       ...lch
-    },*/
+    },
   },
 
   head,
@@ -65,7 +65,7 @@ export default defineConfig({
   /* 主题配置 */
   themeConfig: {
     i18nRouting: true,
-    logo: 'https://github.com/ZhuYuLinSheng/MCCOMindexnew/blob/main/docs/public/logo.png',
+    logo: 'https://github.com/ZhuYuLinSheng/MCCOM/blob/main/docs/public/logo.png',
     
     socialLinks,
 
@@ -79,13 +79,14 @@ export default defineConfig({
         indexName: 'mccom',
         locales: {
           ...zhSearch,
-          ...enSearch,
+          // ...enSearch,
           ...lzhSearch,
 
         },
       },
     },
   },
+
   vite: {
     plugins: [MarkdownPreview()],
     css: {
