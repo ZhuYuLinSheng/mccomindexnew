@@ -65,7 +65,7 @@ export default defineConfig({
   /* 主题配置 */
   themeConfig: {
     i18nRouting: true,
-    logo: 'https://github.com/ZhuYuLinSheng/MCCOM/blob/main/docs/public/logo.png',
+    logo: 'https://github.com/ZhuYuLinSheng/MCCOMindexnew/blob/main/docs/public/logo.png',
     
     socialLinks,
 
