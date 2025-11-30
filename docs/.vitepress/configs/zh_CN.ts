@@ -3,14 +3,14 @@ import {  nav, sidebar, } from './'
 
 export const zh_CN = defineConfig({
     title: 'MCCOM组织网站',
-    description: 'Minecraft服务器交流组织 (MCCOM)-一个致力于Minecraft技术交流和服务器宣传的新兴组织',
+    description: 'Minecraft服务器交流组织 (MCCOM)-一个致力于Minecraft交流和宣传的新兴组织',
 
     themeConfig: {
         siteTitle: 'MCCOM组织',
         nav,
         sidebar,
         editLink: {
-            pattern: 'https://github.com/zhuyulinsheng/mccom/edit/main/docs/:path',
+            pattern: 'https://github.com/zhuyulinsheng/mccomindexnew/edit/main/docs/:path',
             text: '编辑此页面'
           },
         
@@ -21,7 +21,7 @@ export const zh_CN = defineConfig({
       
         footer: {
             message: 'MCCOM服务器交流组织',
-            copyright: 'Copyright © 2025-present <a href="https://mccom.xyz/">MCCOM</a>— —<a href="https://github.com/zhuyulinsheng/mccom">网站的仓库</a>'
+            copyright: 'Copyright © 2025-present <a href="https://mccom.xyz/">MCCOM</a>— —<a href="https://github.com/zhuyulinsheng/mccomindexnew">网站的仓库</a>'
           },
       
         lastUpdated: {
